@@ -3,17 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
     <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/mainPage.css" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+    <link href="./src/css/mainPage.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
   </head>
+
   <body>
-    <a href="./src/html/surprisePage.html" class="gift-link">
-      Відкривй подарунок!!!!!!!!!!!!
-    </a>
+    <main>
+      <section class="hero hero-container">
+        <div class="container">
+          <div class="">
+            <h1 class="hero-title">Відкрийте сюрприз і підніміть настрій</h1>
+            <p class="hero-text">
+              Відкрий подарунки щоб дізнотися що ти не отримаєш в своєму
+              новорічному подарунку
+            </p>
+          </div>
+          <!-- <img class="hero-img" src="./src/img/mainPage/fon-section-hero.png" alt="Meny gift in right"> -->
+
+          <div class="hero-transition">
+            <img
+              class="hero-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+            <img
+              class="hero-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="gift">
+        <div class="container">
+          <ul class="gift-list">
+            <li class="gift-item">
+              <a class="gift-link link gift1" href="./src/html/firstGamePage.html">
+                <img
+                  class="gift-img img"
+                  src="./src/img/mainPage/white-gift.png"
+                  alt="white gift"
+                />
+              </a>
+            </li>
+            <li class="gift-item">
+              <a class="gift-link link gift2" href="./src/html/firstGamePage.html"
+                ><img
+                  class="gift-img img"
+                  src="./src/img/mainPage/yellow-gift.png"
+                  alt="yellow gift"
+              /></a>
+            </li>
+            <li class="gift-item">
+              <a class="gift-link link gift3" href="./src/html/firstGamePage.html"
+                ><img
+                  class="gift-img img"
+                  src="./src/img/mainPage/red-gift.png"
+                  alt="red gift"
+              /></a>
+            </li>
+          </ul>
+
+          <a class="red-square" href></a>
+
+          <div class="gift-transition">
+            <img
+              class="gift-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+            <img
+              class="gift-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+            <img
+              class="gift-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+            <img
+              class="gift-transition-img"
+              src="./src/img/mainPage/garland.png"
+              alt="garland"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <a class="footer-logo link logo" href="./index.html">3IStudio</a>
+      </div>
+    </footer>
   </body>
 </html>

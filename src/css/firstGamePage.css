@@ -1,0 +1,37 @@
+.game {
+  height: 100vh;
+
+  background: url(../img/gameElements/gameBg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.game__info {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+.game__score, .game__win-score {
+  color: #fff;
+  text-shadow: 0px 4px 24px #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 600;
+}
+.game__game-field {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.star {  
+  position: absolute;
+  width: 180px;
+  height: 180px;
+
+  background: url(../img/gameElements/Starr.png);
+  background-size: contain;
+  cursor: pointer;
+}

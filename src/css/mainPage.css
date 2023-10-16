@@ -1,0 +1,173 @@
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  color: #ffe2ad;
+
+  font-weight: 900;
+  font-size: 2em;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.hero {
+}
+
+.hero-container {
+  background-image: url("../img/mainPage/fon-section-hero.png");
+  background-size: cover;
+  padding: 20px;
+}
+
+.hero-title {
+  color: #fef8de;
+  text-shadow: 0px 4px 37px rgba(255, 255, 255, 0.83);
+  font-size: 103px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  width: 59%;
+  margin-left: 168px;
+  margin-top: 223px;
+}
+
+.hero-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 131.523%;
+
+  width: 824px;
+  margin-left: 168px;
+  margin-top: 50px;
+  margin-bottom: 224px;
+}
+
+.hero-transition {
+  left: 0;
+  display: flex;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+}
+
+.hero-transition-img {
+  width: 55%;
+}
+
+.gift {
+  background: linear-gradient(180deg, #fad094 0%, #fff 71.01%);
+  padding-top: 260px;
+}
+
+.gift-list {
+  display: flex;
+}
+
+.gift-item {
+}
+
+.gift-link {
+  display: inline-block;
+  width: 438px;
+  height: 394px;
+  flex-shrink: 0;
+  border-radius: 91px;
+  filter: drop-shadow(0px 0px 43px rgba(0, 0, 0, 0.36));
+
+  border-radius: 91px;
+
+  margin-left: 138px;
+  transition: background-color 0.3s ease;
+  animation: gradientTransition 2s linear infinite;
+}
+
+.gift-img {
+  margin-left: 110px;
+}
+
+.gift1 {
+  background: linear-gradient(50deg, #f3f2dc 11.93%, #f40f0f 130.76%);
+  transition: background-img 400ms ease-in-out;
+}
+
+.gift2 {
+  background: linear-gradient(51deg, #cbd83a -22.84%, #fff 130.67%);
+}
+
+.gift3 {
+  background: linear-gradient(50deg, #e32a2a -17.15%, #e3d0a2 130.76%);
+}
+
+.gift1:hover {
+  background: linear-gradient(50deg, #f3f2dcb0 11.93%, #a10909 130.76%);
+}
+
+.gift2:hover {
+  background: linear-gradient(51deg, #e4f808 -22.84%, #d4d4d4 130.67%);
+}
+
+.gift3:hover {
+  background: linear-gradient(50deg, #a30303 -17.15%, #ffd980 130.76%);
+}
+
+.gift-transition {
+  left: 0;
+  width: 100%;
+  display: flex;
+  transform: translateY(-50%);
+  position: absolute;
+  margin-top: 196px;
+}
+
+.gift-transition-img {
+  width: 25%;
+}
+
+.footer-container {
+  margin-top: 210px;
+  background-image: url("../img/mainPage/footer-fon.jpg");
+  background-size: cover;
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  color: #ffe2ad;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+  margin-left: 50%;
+}

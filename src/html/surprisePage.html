@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="../css/mainPage.css" />
-    <link rel="stylesheet" href="../css/surprisePage.css" />
-  </head>
-  <body>
-    <section class="open-gift">
-      <a class="open-gift__return-link" href></a>
-      <div class="open-gift__gift gift">
-        <div class="gift__header">
-          <img src="../img/giftPage/SurpriseHeader.png" alt="" />
-        </div>
-        <div class="gift__footer">
-          <img src="../img/giftPage/SurpriseBox.png">
-        </div>
-    </section>
-    <script type="module" src="../js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/surprisePage.css" />
+</head>
+
+<body>
+  <section class="open-gift">
+    <a class="open-gift__return-link" href="/index.html">
+      <img src="/src/img/giftPage/back-arrow.png" alt="">
+    </a>
+    <div class="open-gift__gift gift">
+      <div class="gift__header">
+        <img src="../img/giftPage/SurpriseHeader.png" alt="" />
+      </div>
+      <div class="gift__content"></div>
+      <div class="gift__footer">
+        <img src="../img/giftPage/SurpriseBox.png">
+      </div>
+  </section>
+  <div class="gift-modal">
+    <p class="gift-modal__text">Опис</p>
+    <div class="gift-modal__img-box"></div>
+  </div>
+  <script type="module" src="../js/main.js"></script>
+  <script type="module" src="../js/gift.js"></script>
+</body>
+
 </html>

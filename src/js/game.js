@@ -24,7 +24,7 @@ function gameLogic() {
   console.log("Швидкість:", speed);
   createRandomBall();
   if (score === winScore) {
-    window.location.href = "/src/html/surprisePage.html";
+    window.location.href = "/GiftsWebsite/src/html/surprisePage.html";
   }
 
   if (tickCounter > starCount) {
